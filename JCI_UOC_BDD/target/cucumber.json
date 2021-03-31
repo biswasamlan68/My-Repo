@@ -1,0 +1,88 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 23,
+        "name": "UOC Login",
+        "description": "",
+        "id": "validate-uoc-login;uoc-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 105710300,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Open Chrome browser with URL",
+            "match": {
+              "location": "Login.open_Chrome_browser_with_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 462700,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Enter correct User Name and Password",
+            "match": {
+              "location": "Login.enter_UserName_Password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4270700,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Hit Login button",
+            "match": {
+              "location": "Login.hit_Login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 421500,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Validate title",
+            "match": {
+              "location": "Login.validate_Title()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@UATTesting"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Validate UOC Login",
+    "description": "",
+    "id": "validate-uoc-login",
+    "keyword": "Feature",
+    "uri": "./features/UOCRegressionSuite.feature",
+    "tags": [
+      {
+        "name": "@UATTesting",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
