@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="29438" started-at="2020-02-27T12:44:24Z" finished-at="2020-02-27T12:44:53Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="29438" started-at="2020-02-27T12:44:24Z" finished-at="2020-02-27T12:44:53Z">
+      <class name="com.Acuite.RunManager.RunManager">
+        <test-method status="PASS" signature="TestRunner()[pri:0, instance:com.Acuite.RunManager.RunManager@343f4d3d]" name="TestRunner" duration-ms="29418" started-at="2020-02-27T12:44:24Z" finished-at="2020-02-27T12:44:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestRunner -->
+      </class> <!-- com.Acuite.RunManager.RunManager -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
